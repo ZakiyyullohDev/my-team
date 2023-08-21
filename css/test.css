@@ -1,0 +1,118 @@
+/* Site-Main */
+
+.about-site-main {
+    background-color: #004047;
+    padding-top: 140px;
+    padding-bottom: 163px;
+    padding-left: 30px;
+}
+
+.main-h1 {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    padding-top: 140px;
+    padding-bottom: 64px;
+    font-weight: 800;
+    line-height: 48px; /* 100% */
+}
+
+.meet-box-wrapper{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+
+.meeting-li {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    align-items: center;
+    display: flex;
+    padding: 32px 24px 56px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #012f34;
+    transition: all .5s ease;
+}
+
+.meet-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 80px;
+    margin-bottom: 30px;
+    background-color: #012f34;
+    transition: all .5s ease;
+}
+
+.meeting-li:last-child {
+    margin-right: 0;
+    /* padding: 0; */
+}
+
+.meeting-people-name {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 900;
+    color: #79c8c7;
+}
+
+.meeting-people-info {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    /* line-height: 25px; */
+    margin-bottom: 28px;
+}
+
+.meeting-people-img {
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin: 0 57px 26px 57px;
+    width: 110px;
+    height: 110px;
+    border: 2px solid #c4fffe;
+    border-radius: 50%;
+}
+
+.meeting-add-btn {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    width: 56px;
+    height: 56px;
+    bottom: -28px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    transition: all .25s ease;
+    background-color: #f67e7e;
+}
+
+.meeting-add-btn:hover {
+    background-color: #79c8c7;
+}
+
+.meeting-add-btn-img {
+    margin: 0;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+}
+
