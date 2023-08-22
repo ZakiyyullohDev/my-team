@@ -75,12 +75,26 @@
     padding-left: 16px;
     color: #fff;
     background-color: transparent;
-    border: none;
+    border: 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.8);
     outline: none;
     overflow: visible;
     margin-bottom: 24px;
     transition: all .25s ease;
+}
+
+.message-input:focus {
+    border-bottom: 1px solid #79C8C7;
+}
+
+.message-input::placeholder {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    opacity: 60%;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.115px;
 }
 
 #message-input-4 {
@@ -94,6 +108,42 @@
     border-bottom: 1px solid hsla(0,0%,100%,.8);
     outline: none;
     min-height: 82px;
-    margin-bottom: -11px;
+    margin-bottom: 24px;
     transition: all .25s ease;
+}
+
+#message-input-4:focus {
+    border-bottom: 1px solid #79C8C7;
+}
+
+#message-input-4::placeholder {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    opacity: 60%;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.115px;
+}
+
+
+.submit-btn {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #014E56;
+    font-style: normal;
+    font-weight: 700;
+    padding: 11px 32px;
+    border-radius: 24px;
+    text-decoration: none;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.submit-btn:hover {
+    color: #FFF;
+    background-color: transparent;
+    border: 2px solid #FFF;
+    border-radius: 24px;
 }

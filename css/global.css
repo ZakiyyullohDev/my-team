@@ -225,7 +225,7 @@ img {
     font-size: 48px;
     margin-right: 160px;
     font-style: normal;
-    font-weight: 700;  /* 100% */
+    font-weight: 700;  
 }
 
 .main-top {
@@ -273,7 +273,7 @@ img {
 }
 
 .people-container {
-    max-width: 1110px;
+    max-width: 1270px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -325,14 +325,12 @@ img {
     background-repeat: no-repeat;
     background-image: url(../img/bg-img.svg);
     padding-top: 40px;
-    margin-top: 48px;
     background-repeat: no-repeat;
     background-position: top;
 }
 
 .people-li:last-child {
     margin-right: 0;
-    /* padding: 0; */
 }
 
 .people-li-1-p {
@@ -344,7 +342,7 @@ img {
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
-    line-height: 25px; /* 166.667% */
+    line-height: 25px; 
 }
 
 .people-name {
@@ -356,7 +354,7 @@ img {
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 28px; /* 155.556% */
+    line-height: 28px;
 }
 
 .people-info {
@@ -368,7 +366,7 @@ img {
     font-style: italic;
     margin-bottom: 32px;
     font-weight: 500;
-    line-height: 18px; /* 138.462% */
+    line-height: 18px;
 }
 
 .people-img {
@@ -400,7 +398,7 @@ img {
     padding-bottom: 76px;
     font-style: normal;
     font-weight: 700;
-    line-height: 48px; /* 100% */
+    line-height: 48px; 
 }
 
 .contact-a-2 {
@@ -533,6 +531,6 @@ img {
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
-    line-height: 25px; /* 166.667% */
+    line-height: 25px;
     opacity: 0.6;
 }
